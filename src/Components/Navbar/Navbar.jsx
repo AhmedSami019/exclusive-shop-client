@@ -2,6 +2,7 @@ import React from "react";
 import "./navbar.css";
 import { Link } from "react-router";
 import { Search, ShoppingCart } from "lucide-react";
+import logo from '/exclusive-logo-transparent.png'
 
 const Navbar = () => {
   const links = (
@@ -41,7 +42,11 @@ const Navbar = () => {
             {links}
           </ul>
         </div>
-        <a className="text-xl md:text-2xl font-bold">Exclusive</a>
+        {/* logo section */}
+        <div className="flex items-center gap-2">
+            <img className="w-12" src={logo} alt="logo" />
+          <a className="text-xl md:text-2xl font-bold hidden md:flex">Exclusive</a>
+        </div>
       </div>
       <div className="navbar-center hidden lg:flex">
         <ul className="menu menu-horizontal px-1">{links}</ul>
