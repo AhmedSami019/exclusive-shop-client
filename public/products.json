@@ -1,0 +1,222 @@
+[
+  {
+    "id": 1,
+    "name": "Smartphone X1",
+    "price": 699,
+    "description": "High-performance smartphone with AMOLED display",
+    "image": "https://mir-s3-cdn-cf.behance.net/projects/404/42ce00153451753.Y3JvcCw2MDEzLDQ3MDQsODMzLDA.jpg",
+    "category": "electronics",
+    "flashSale": true,
+    "bestSale": true,
+    "customerReview": { "rating": 4.6, "totalReviews": 320 }
+  },
+  {
+    "id": 2,
+    "name": "Wireless Headphones",
+    "price": 149,
+    "description": "Noise-cancelling over-ear headphones",
+    "image": "https://www.shutterstock.com/image-vector/wireless-ear-headphones-ad-3d-260nw-2128379057.jpg",
+    "category": "electronics",
+    "flashSale": false,
+    "bestSale": true,
+    "customerReview": { "rating": 4.4, "totalReviews": 210 }
+  },
+  {
+    "id": 3,
+    "name": "Laptop Pro 15",
+    "price": 1299,
+    "description": "Powerful laptop for work and gaming",
+    "image": "https://i.pinimg.com/736x/36/6d/f3/366df3199138fdc920d727fea8c696f6.jpg",
+    "category": "electronics",
+    "flashSale": true,
+    "bestSale": false,
+    "customerReview": { "rating": 4.7, "totalReviews": 180 }
+  },
+  {
+    "id": 4,
+    "name": "Smart Watch",
+    "price": 199,
+    "description": "Fitness tracking smart watch",
+    "image": "https://i.pinimg.com/736x/27/07/54/27075426d024c6257aea8f9be2183e26.jpg",
+    "category": "electronics",
+    "flashSale": false,
+    "bestSale": false,
+    "customerReview": { "rating": 4.2, "totalReviews": 140 }
+  },
+  {
+    "id": 5,
+    "name": "Men's Casual Shirt",
+    "price": 39,
+    "description": "Comfortable cotton casual shirt",
+    "image": "https://mir-s3-cdn-cf.behance.net/projects/404/22b186231018543.Y3JvcCwzODA4LDI5NzgsMCww.jpg",
+    "category": "cloth",
+    "flashSale": true,
+    "bestSale": false,
+    "customerReview": { "rating": 4.1, "totalReviews": 95 }
+  },
+  {
+    "id": 6,
+    "name": "Women's Summer Dress",
+    "price": 59,
+    "description": "Lightweight floral summer dress",
+    "image": "https://www.westside.com/cdn/shop/articles/summer_dresses_for_women.jpg?v=1677045441",
+    "category": "cloth",
+    "flashSale": false,
+    "bestSale": true,
+    "customerReview": { "rating": 4.5, "totalReviews": 160 }
+  },
+  {
+    "id": 7,
+    "name": "Denim Jeans",
+    "price": 49,
+    "description": "Slim-fit blue denim jeans",
+    "image": "https://esq.h-cdn.co/assets/16/46/1600x800/landscape-1479248717-mugsy-jeans.jpg",
+    "category": "cloth",
+    "flashSale": true,
+    "bestSale": true,
+    "customerReview": { "rating": 4.3, "totalReviews": 200 }
+  },
+  {
+    "id": 8,
+    "name": "Winter Jacket",
+    "price": 99,
+    "description": "Warm and stylish winter jacket",
+    "image": "https://mir-s3-cdn-cf.behance.net/projects/404/f85691237465487.Y3JvcCwxODM2LDE0MzYsMCw0NQ.png",
+    "category": "cloth",
+    "flashSale": false,
+    "bestSale": false,
+    "customerReview": { "rating": 4.4, "totalReviews": 110 }
+  },
+  {
+    "id": 9,
+    "name": "Wooden Dining Table",
+    "price": 499,
+    "description": "6-seater solid wood dining table",
+    "image": "hhttps://img.freepik.com/premium-photo/restaurant-wooden-chair-table-with-unfocused-natural-background_724662-4054.jpg?semt=ais_hybrid&w=740&q=80",
+    "category": "furniture",
+    "flashSale": true,
+    "bestSale": true,
+    "customerReview": { "rating": 4.6, "totalReviews": 85 }
+  },
+  {
+    "id": 10,
+    "name": "Sofa Set",
+    "price": 899,
+    "description": "Comfortable 3-seater sofa set",
+    "image": "https://www.shutterstock.com/image-illustration/outdoor-concept-sale-home-decorations-260nw-2213849247.jpg",
+    "category": "furniture",
+    "flashSale": false,
+    "bestSale": true,
+    "customerReview": { "rating": 4.5, "totalReviews": 90 }
+  },
+  {
+    "id": 11,
+    "name": "Office Chair",
+    "price": 199,
+    "description": "Ergonomic office chair with lumbar support",
+    "image": "https://i.ytimg.com/vi/Pn8ohXU8OS8/maxresdefault.jpg",
+    "category": "furniture",
+    "flashSale": true,
+    "bestSale": false,
+    "customerReview": { "rating": 4.3, "totalReviews": 130 }
+  },
+  {
+    "id": 12,
+    "name": "Bookshelf",
+    "price": 149,
+    "description": "Modern wooden bookshelf",
+    "image": "https://static.vecteezy.com/system/resources/thumbnails/026/311/096/small/wide-banner-featuring-bookshelf-and-stack-of-hardcovered-books-perfect-for-literature-advertisement-ai-generated-photo.jpg",
+    "category": "furniture",
+    "flashSale": false,
+    "bestSale": false,
+    "customerReview": { "rating": 4.2, "totalReviews": 70 }
+  },
+  {
+    "id": 13,
+    "name": "Organic Rice 5kg",
+    "price": 25,
+    "description": "Premium quality organic rice",
+    "image": "https://www.shutterstock.com/image-vector/cooked-white-rice-ad-template-260nw-2061713891.jpg",
+    "category": "grocery",
+    "flashSale": true,
+    "bestSale": true,
+    "customerReview": { "rating": 4.8, "totalReviews": 400 }
+  },
+  {
+    "id": 14,
+    "name": "Olive Oil 1L",
+    "price": 18,
+    "description": "Extra virgin olive oil",
+    "image": "https://static.vecteezy.com/system/resources/thumbnails/032/939/053/small/freshness-in-a-bottle-healthy-organic-extra-virgin-olive-free-photo.jpg",
+    "category": "grocery",
+    "flashSale": false,
+    "bestSale": true,
+    "customerReview": { "rating": 4.6, "totalReviews": 260 }
+  },
+  {
+    "id": 15,
+    "name": "Fresh Milk Pack",
+    "price": 3,
+    "description": "1-liter fresh dairy milk",
+    "image": "https://www.shutterstock.com/image-vector/3d-farm-owned-milk-ad-260nw-2120388362.jpg",
+    "category": "grocery",
+    "flashSale": true,
+    "bestSale": false,
+    "customerReview": { "rating": 4.4, "totalReviews": 310 }
+  },
+  {
+    "id": 16,
+    "name": "Breakfast Cereal",
+    "price": 6,
+    "description": "Healthy whole-grain cereal",
+    "image": "https://thumbs.dreamstime.com/b/ring-cereals-advertisement-template-d-cheerios-ad-bowl-pouring-milk-splashes-paper-cut-farm-landscape-silhouette-304410625.jpg",
+    "category": "grocery",
+    "flashSale": false,
+    "bestSale": false,
+    "customerReview": { "rating": 4.1, "totalReviews": 150 }
+  },
+  {
+    "id": 17,
+    "name": "Bluetooth Speaker",
+    "price": 89,
+    "description": "Portable wireless Bluetooth speaker",
+    "image": "https://img500.exportersindia.com/product_images/bc-500/2022/6/10480072/bluetooth-speakers-1655893361-6408865.jpeg",
+    "category": "electronics",
+    "flashSale": true,
+    "bestSale": true,
+    "customerReview": { "rating": 4.5, "totalReviews": 220 }
+  },
+  {
+    "id": 18,
+    "name": "Gaming Mouse",
+    "price": 49,
+    "description": "High-precision RGB gaming mouse",
+    "image": "https://cdn.dribbble.com/userupload/3841534/file/original-2bbcb8ca405755b7a51d1b9e758c7d32.jpg?format=webp&resize=400x300&vertical=center",
+    "category": "electronics",
+    "flashSale": false,
+    "bestSale": false,
+    "customerReview": { "rating": 4.3, "totalReviews": 175 }
+  },
+  {
+    "id": 19,
+    "name": "Cotton T-Shirt",
+    "price": 19,
+    "description": "Soft cotton round-neck t-shirt",
+    "image": "https://images.stockcake.com/public/8/4/3/84395351-69b6-4ffb-97b9-ca92e71121b5_large/beachside-t-shirt-display-stockcake.jpg",
+    "category": "cloth",
+    "flashSale": true,
+    "bestSale": false,
+    "customerReview": { "rating": 4.0, "totalReviews": 120 }
+  },
+  {
+    "id": 20,
+    "name": "Coffee Table",
+    "price": 129,
+    "description": "Minimalist wooden coffee table",
+    "image": "https://images.accentuate.io/?c_options=w_1000&image=https://cdn.accentuate.io/51798343726/1746140218197/MalvernHouse-Landscape-3.jpg?v=1760328162522",
+    "category": "furniture",
+    "flashSale": false,
+    "bestSale": true,
+    "customerReview": { "rating": 4.4, "totalReviews": 98 }
+  }
+]
