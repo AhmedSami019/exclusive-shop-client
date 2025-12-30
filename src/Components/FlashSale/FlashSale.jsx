@@ -7,6 +7,7 @@ import { Link } from "react-router";
 import "swiper/css";
 import "swiper/css/free-mode";
 import "swiper/css/navigation"; // 2. Added Navigation CSS
+import { Star } from "lucide-react";
 
 const FlashSale = () => {
   const { productsPromise } = use(AllContext);
@@ -45,9 +46,9 @@ const FlashSale = () => {
             prevEl: ".trending-prev",
           }}
           breakpoints={{
-            320: { slidesPerView: 3, spaceBetween: 10 },
-            768: { slidesPerView: 5, spaceBetween: 15 },
-            1024: { slidesPerView: 7, spaceBetween: 20 },
+            320: { slidesPerView: 2, spaceBetween: 6 },
+            768: { slidesPerView: 4, spaceBetween: 10 },
+            1024: { slidesPerView: 6, spaceBetween: 15 },
           }}
         >
           {flashSaleProducts.map((product) => (
@@ -56,16 +57,20 @@ const FlashSale = () => {
                 to={`category/${product.id}`}
                 className="card rounded-xl overflow-hidden"
               >
-                <figure className="relative h-25 w-25 md:h-35 md:w-35 lg:h-45 lg:w-55 border-2 rounded-2xl border-gray-300">
-                  <img
-                    src={product.image}
-                    alt={product.name}
-                    className="w-full h-full object-cover"
-                  />
-                </figure>
-                <h3 className="text-sm lg:text-lg font-medium mt-2 px-2 truncate">
-                  {product.name}
-                </h3>
+                <div className="bg-base-100 p-4">
+                  <figure className="relative h-25  md:h-35 lg:h-45 border-2 rounded-2xl border-gray-300">
+                    <img
+                      src={product.image}
+                      alt={product.name}
+                      className="w-full h-full object-cover"
+                    />
+                  </figure>
+                  <h3 className="text-sm lg:text-lg font-semibold mt-2 truncate">
+                    {product.name}
+                  </h3>
+                  <p>${product.price}</p>
+                  <p className="flex  gap-2">{product.customerReview.rating}<Star stroke="0" fill="gold" size={20}></Star></p>
+                </div>
               </Link>
             </SwiperSlide>
           ))}
