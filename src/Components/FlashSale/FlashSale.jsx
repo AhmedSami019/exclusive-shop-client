@@ -69,7 +69,7 @@ const FlashSale = () => {
                     {product.name}
                   </h3>
                   <p>${product.price}</p>
-                  <p className="flex  gap-2">{product.customerReview.rating}<Star stroke="0" fill="gold" size={20}></Star></p>
+                  <p className="flex gap-2">{product.customerReview.rating}<Star stroke="0" fill="gold" size={20}></Star></p>
                 </div>
               </Link>
             </SwiperSlide>
